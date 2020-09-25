@@ -67,7 +67,7 @@ int main(void) {
     scanf("%d", &numCount);
     printf("Input %d numbers\n", numCount);
 
-    elementGeneration(&arr, numCount);
+    elementGeneration(arr, numCount); //미친 여기서 틀림...! ㅎㅎㅎㅎㅎㅎㅎ
 
     while(1) //반복문
     {
