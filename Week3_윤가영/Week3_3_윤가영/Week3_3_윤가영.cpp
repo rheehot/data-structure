@@ -21,7 +21,7 @@ void elementInsertion(int arrPtr[], int* arrSize) //배열에 원소를 삽입합니다.
     int insLoc, insValue; //insLoc: 삽입 위치, insValue: 삽입할 값
     printf("Input location and value to insert\n");
     scanf("%d%d", &insLoc, &insValue);
-    if(insLoc < 0 || insLoc > *arrSize){ //사용자가 입력한 삽입 위치 값이 범위를 벗어날 경우 함수를 종료합니다.
+    if(insLoc < 1 || insLoc > *arrSize){ //사용자가 입력한 삽입 위치 값이 범위를 벗어날 경우 함수를 종료합니다.
         printf("Choose between 1 and %d\n\n", *arrSize);
         return;
     }
